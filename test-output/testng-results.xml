@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-15T02:48:43 IST" name="Default suite" finished-at="2024-03-15T02:48:55 IST" duration-ms="12703">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T02:48:43 IST" name="Default test" finished-at="2024-03-15T02:48:55 IST" duration-ms="12703">
+      <class name="BlazeDemoApp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:BlazeDemoApp@4c1909a3]" started-at="2024-03-15T02:48:43 IST" name="setUp" finished-at="2024-03-15T02:48:45 IST" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:BlazeDemoApp@4c1909a3]" started-at="2024-03-15T02:48:45 IST" name="verifyHomePageTitle" finished-at="2024-03-15T02:48:50 IST" duration-ms="4449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="navigateToDestinationOfTheWeek()[pri:2, instance:BlazeDemoApp@4c1909a3]" started-at="2024-03-15T02:48:50 IST" name="navigateToDestinationOfTheWeek" finished-at="2024-03-15T02:48:52 IST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToDestinationOfTheWeek -->
+        <test-method signature="purchaseTicket(java.lang.String,java.lang.String)[pri:3, instance:BlazeDemoApp@4c1909a3]" started-at="2024-03-15T02:48:52 IST" name="purchaseTicket" data-provider="flightData" finished-at="2024-03-15T02:48:55 IST" duration-ms="3162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mexico City]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseTicket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BlazeDemoApp@4c1909a3]" started-at="2024-03-15T02:48:55 IST" name="tearDown" finished-at="2024-03-15T02:48:55 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BlazeDemoApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
